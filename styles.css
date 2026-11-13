@@ -1,0 +1,5 @@
+.task-trace-view .task-trace-muted { color: var(--text-muted); font-size: var(--font-ui-small); }
+.task-trace-view .task-trace-warning { color: var(--text-warning); }
+.task-trace-view .task-trace-event { border-left: 2px solid var(--interactive-accent); padding: 0.5em 0.8em; margin-block: 1em; overflow-wrap: anywhere; }
+.task-trace-view .task-trace-event p { margin-block: 0.35em; }
+.task-trace-view select { max-width: 100%; }

@@ -1,0 +1,25 @@
+{
+  "name": "obsidian-plugin-task-trace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A synchronized observation history for Markdown tasks with Obsidian Tasks IDs.",
+  "license": "MIT",
+  "author": "Michael J. Stallinger",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/test.mjs",
+    "check": "npm run typecheck && npm run build && npm test",
+    "deploy": "npm run check && node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "esbuild": "0.28.2",
+    "obsidian": "1.14.4",
+    "typescript": "^5.9.0"
+  }
+}

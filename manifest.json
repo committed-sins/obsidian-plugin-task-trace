@@ -1,0 +1,10 @@
+{
+  "id": "task-trace",
+  "name": "Task Trace",
+  "version": "0.1.0",
+  "minAppVersion": "1.11.4",
+  "description": "Trace changes, rescheduling and moves of Markdown tasks using their Obsidian Tasks IDs.",
+  "author": "Committed Sins",
+  "authorUrl": "https://github.com/committed-sins",
+  "isDesktopOnly": false
+}
